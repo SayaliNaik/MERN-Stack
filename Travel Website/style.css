@@ -1,0 +1,57 @@
+
+body{
+    width:100%;
+}
+
+
+
+
+
+/*IMAGE TILES******************************************************************/
+
+.headermessage {
+  margin: 19px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.image-block {
+    border: 3px solid white ;
+    background-color: black;
+    padding: 0px;    
+    margin: 0px;
+    height:250px;
+    text-align: center;
+  /*  align-content: top;*/
+    vertical-align: top;
+}
+
+.image-block > p {
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    font-size: 19px;
+    padding-top: 100px;
+    background-color: rgba(3,3,3,0.0);
+    color: rgba(6,6,6,0.0);
+}
+
+
+.image-block:hover > p {
+    background-color: rgba(3,3,3,0.5);    
+    color: white;    
+    transition: all 0.9s ease-out;
+}
+
+
+.hideme
+{
+    opacity:0;
+}
+
+
+
+/*BACKGROUND TRANSPARENT ON SCROLL FROM HERE*/
+
